@@ -9,5 +9,5 @@ today i learned
 | 3일차 | [마음가짐](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day3.md>) |
 | 4일차 | [DOM과 CSS 지옥](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day4.md>) |
 | 5일차 | [flex](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day5.md>) |
-| 6일차 |                                                              |
+| 6일차 | [로직과 CSS랑 맞짱뜨기](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day6.md>) |
 
