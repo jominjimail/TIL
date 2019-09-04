@@ -11,4 +11,5 @@ today i learned
 | 5일차 | [flex](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day5.md>) |
 | 6일차 | [로직과 CSS랑 맞짱뜨기](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day6.md>) |
 | 7일차 | [코드리뷰](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day7.md>) |
+| 8일차 | [Node.js](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day8.md>) |
 
