@@ -8,7 +8,7 @@
 
 [http response status codes](<https://www.restapitutorial.com/httpstatuscodes.html>)
 
-[유의어 사전집]([https://www.thesaurus.com](https://www.thesaurus.com/))
+[유의어 사전집](https://www.thesaurus.com/)
 
 - *읽기 좋은 코드가 좋은코드다* 한빛 미디어 책을 읽었다. week1 마스터 코드리뷰 시간에 마스터님이 조언해준대로 네이밍에 대해 깊이 고민해봐야할것 같아 읽어봤다. 그 중 part1 표면적 수준에서의 개선 부분을 읽고 정리할 계획이다. 
 
