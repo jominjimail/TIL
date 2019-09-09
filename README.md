@@ -14,4 +14,5 @@ today i learned
 | 8일차  | [Node.js](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day8.md>) |
 | 9일차  | [네이밍](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day9.md>) |
 | 10일차 | [쿠키](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day10.md>) |
+| 11일차 | [304, 쿠키](https://github.com/jominjimail/TIL/blob/master/boost_camp/day11.md) |
 
