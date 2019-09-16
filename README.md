@@ -15,4 +15,6 @@ today i learned
 | 9일차  | [네이밍](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day9.md>) |
 | 10일차 | [쿠키](<https://github.com/jominjimail/TIL/blob/master/boost_camp/day10.md>) |
 | 11일차 | [304, 쿠키](https://github.com/jominjimail/TIL/blob/master/boost_camp/day11.md) |
+| 12일차 | [코드 리뷰](https://github.com/jominjimail/TIL/blob/master/boost_camp/day12.md) |
+| 13일차 | [이벤트](https://github.com/jominjimail/TIL/blob/master/boost_camp/day13.md) |
 
