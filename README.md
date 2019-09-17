@@ -17,4 +17,5 @@ today i learned
 | 11일차 | [304, 쿠키](https://github.com/jominjimail/TIL/blob/master/boost_camp/day11.md) |
 | 12일차 | [코드 리뷰](https://github.com/jominjimail/TIL/blob/master/boost_camp/day12.md) |
 | 13일차 | [이벤트](https://github.com/jominjimail/TIL/blob/master/boost_camp/day13.md) |
+| 14일차 | [호이스트, 클로져](https://github.com/jominjimail/TIL/blob/master/boost_camp/day14.md) |
 
