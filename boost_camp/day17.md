@@ -65,7 +65,7 @@ export class Carousel {
 }
 ```
 
-Carousel 클래스의 생성자를 살펴보면 `this.self` <div> 태그와 `this.cardContainer` <div> 태그를 새로 만들어 `this.cardContainer` 을 `this.self` 밑으로 append 하고
+Carousel 클래스의 생성자를 살펴보면 `this.self` `<div>` 태그와 `this.cardContainer` `<div>` 태그를 새로 만들어 `this.cardContainer` 을 `this.self` 밑으로 append 하고
 
 > this.self > this.cardContainer
 
@@ -89,7 +89,11 @@ Carousel 클래스의 생성자를 살펴보면 `this.self` <div> 태그와 `thi
 </html>
 ```
 
-parnet 를 넘겨받아 하위에 필요한 tag를 생성해 append 하고 그 안에 추가할게 있다면 다시 parent 로 넘겨준다. root 를 찾는 `document.querySeletor('#root')` 한 번만 호출하고 이후에는 `document.createElement('div');` 로 html 을 추가한다.
+parnet 를 넘겨받아 하위에 필요한 tag를 생성해 append 하고 그 안에 추가할게 있다면 다시 parent 로 넘겨준다.
+
+
+
+ root 를 찾는 `document.querySeletor('#root')` 한 번만 호출하고 이후에는 `document.createElement('div');` 로 html 을 추가한다.
 
 ### 오늘 느낀점 
 
