@@ -61,13 +61,15 @@ say.sayBye('John');
 
 그럼 그냥 `*` 로 다 써버리면 되지 않을까? 왜 명시적으로 { 리스트안에 } import하는게 필요할까?
 
-- webpack같은 build tool을 살펴보면 (자동으로 export, import 해주는듯) 로딩 속도를 최적화하기 위해 사용하지 않은건 지워버린다. 이런걸 tree-shacking 라고 한다. 
+- webpack같은 build tool을 살펴보면 (자동으로 export, import 해주는듯) 로딩 속도를 최적화하기 위해 사용하지 않은건 지워버린다. 이런걸 tree-shacking 이라고 한다. 
 
-  - > Then the optimizer will see that and remove the other functions from the bundled code, thus making the build smaller. That is called “tree-shaking”.
+  > Then the optimizer will see that and remove the other functions from the bundled code, thus making the build smaller. That is called “tree-shaking”.
 
 - { sayHi } 라고 리스트안에 명시적으로 표현하면 say.sayHi() 대신 sayHi() 로 바로 사용할 수 있다.
 
 - 가독성이 좋다. 어떤 함수를 가져다 사용하는지 쉽게 알 수 있다.
+
+#### as
 
 ```javascript
 import {sayHi as hi, sayBye as bye} from './say.js';
@@ -83,6 +85,12 @@ export {sayHi as hi, sayBye as bye};
 ```
 
 export 할 때도 as로 별명을 붙여줄 수 있다.
+
+
+
+------
+
+
 
 #### export default
 
