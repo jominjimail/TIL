@@ -19,4 +19,5 @@ today i learned
 | 13일차 | [이벤트](https://github.com/jominjimail/TIL/blob/master/boost_camp/day13.md) |
 | 14일차 | [호이스트, 클로져](https://github.com/jominjimail/TIL/blob/master/boost_camp/day14.md) |
 | 16일차 | [SASS](https://github.com/jominjimail/TIL/blob/master/boost_camp/day16.md) |
+| 17일차 | [index.html , index.js](https://github.com/jominjimail/TIL/blob/master/boost_camp/day17.md) |
 

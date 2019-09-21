@@ -16,7 +16,7 @@ front end 를 개발할때 index.html, index.js 는 패턴이 있는 것 같다.
 </html>
 ```
 
-Index.html 에는 <body> 안에 오직 한 개의 <div>  태크만 있다. 
+Index.html 에는 `<body>` 안에 오직 한 개의 `<div>` 태크만 있다. 
 
 ```javascript
 import attachMiniCarouselTo from './mini_carousel.js';
@@ -26,7 +26,7 @@ const root = document.querySelector('#root');
 attachMiniCarouselTo(root);
 ```
 
-index.js 에는 querySeletor 로 html의 root 를 찾아 다음 함수로 넘겨준다. 
+index.js 에는 querySeletor 로 html에 있는 root 를 찾아 attachMiniCarouselTo() 함수로 넘겨준다. 
 
 ```javascript
 export default function attachMainCarouselTo(parent) {
@@ -42,7 +42,11 @@ export default function attachMainCarouselTo(parent) {
 }
 ```
 
-다음 함수인 attachMiniCarouselTo() 를 살펴보면 `miniCarouselRoot` <div> 태그를 새로 만들어 `parent` 파라미터로 받은 root <div> 밑으로 append 한다. `miniCarouselRoot` 는 Carousel 생성자의 인자로 들어간다.
+attachMiniCarouselTo() 를 살펴보면 `miniCarouselRoot` `<div>` 태그를 새로 만들어 `parent` 파라미터로 받은 root `<div>` 밑으로 append 한다.
+
+>  root > miniCarouselRoot
+
+ `miniCarouselRoot` 는 Carousel 생성자의 인자로 들어간다.
 
 ```javascript
 export class Carousel {
@@ -61,7 +65,13 @@ export class Carousel {
 }
 ```
 
-Carousel 클래스의 생성자를 살펴보면 `this.self` <div> 태그와 `this.cardContainer` <div> 태그를 새로 만들어 `this.cardContainer` 을 `this.self` 밑으로 append 하고 parent 파라미터로 받은 `miniCarouselRoot` <div> 밑으로 `this.self` 를 append 한다. 
+Carousel 클래스의 생성자를 살펴보면 `this.self` <div> 태그와 `this.cardContainer` <div> 태그를 새로 만들어 `this.cardContainer` 을 `this.self` 밑으로 append 하고
+
+> this.self > this.cardContainer
+
+ parent 파라미터로 받은 `miniCarouselRoot` `<div>`밑으로 `this.self` 를 append 한다. 
+
+>  root > miniCarouselRoot > this.self >  this.cardContainer
 
 ```html
 <!DOCTYPE html>
@@ -79,7 +89,7 @@ Carousel 클래스의 생성자를 살펴보면 `this.self` <div> 태그와 `thi
 </html>
 ```
 
-parnet 를 넘겨받아 필요한 tag를 생성해 append 하고 그 안에 추가할게 있다면 다시 parent 로 넘겨준다. 이렇게 하면 querySeletor를 한번만 호출한다. js로 html 을 만든다는게 이런거 같다. 이렇게 짜니깐 코드가 간결하고 읽기 쉬웠다. 
+parnet 를 넘겨받아 하위에 필요한 tag를 생성해 append 하고 그 안에 추가할게 있다면 다시 parent 로 넘겨준다. root 를 찾는 `document.querySeletor('#root')` 한 번만 호출하고 이후에는 `document.createElement('div');` 로 html 을 추가한다.
 
 ### 오늘 느낀점 
 
