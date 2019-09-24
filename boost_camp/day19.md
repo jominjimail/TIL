@@ -30,7 +30,7 @@ passport 는 Node js의 authentication 미들웨어이다.
      |        |                               +---------------+
      |        |--(C)-- Authorization Grant -->| Authorization |
      | Client |                               |     Server    |
-     |        |<-(D)----- Access Token -------|    권한 서버		|
+     |        |<-(D)----- Access Token -------|    권한 서버    |
      |        |                               +---------------+
      |        |
      |        |                               +---------------+
