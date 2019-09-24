@@ -21,10 +21,10 @@ passport 는 Node js의 authentication 미들웨어이다.
 #### OAuth를 이해하기 위한 좋은 예시
 
 ```
-		 +--------+                               +---------------+
+     +--------+                               +---------------+
      |        |--(A)- Authorization Request ->|   Resource    |
      |        |                               |     Owner     |
-     |        |<-(B)-- Authorization Grant ---|  	 자원소유자    |
+     |        |<-(B)-- Authorization Grant ---|   자원소유자     |
      |        |                               +---------------+
      |        |
      |        |                               +---------------+
@@ -36,7 +36,7 @@ passport 는 Node js의 authentication 미들웨어이다.
      |        |                               +---------------+
      |        |--(E)----- Access Token ------>|    Resource   |
      |        |                               |     Server    |
-     |        |<-(F)--- Protected Resource ---|    자원 서버  	|
+     |        |<-(F)--- Protected Resource ---|    자원 서버    |
      +--------+                               +---------------+
 ```
 
