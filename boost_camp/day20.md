@@ -4,7 +4,9 @@
 
 ### 오늘 공부한거 
 
-x
+색인집 링크 : https://www.thesaurus.com/browse/function?s=t
+
+fetch async await 로 받아오기 : https://dev.to/johnpaulada/synchronous-fetch-with-asyncawait
 
 ### 오늘 개발한거 
 
