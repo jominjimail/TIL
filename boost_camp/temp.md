@@ -1,6 +1,6 @@
 # 부스트 캠프 멤버십 4일차 
 
-## week2 back-end day2
+## week4 back-end day2
 
 ### 오늘 공부한거 
 
