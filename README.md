@@ -24,4 +24,5 @@ today i learned
 | 18일차 | [REST API](https://github.com/jominjimail/TIL/blob/master/boost_camp/day18.md) |
 | 19일차 | [passport, OAuth](https://github.com/jominjimail/TIL/blob/master/boost_camp/day19.md) |
 | 20일차 | [fetch](https://github.com/jominjimail/TIL/blob/master/boost_camp/day20.md) |
+| 21일차 | [mysql2](https://github.com/jominjimail/TIL/blob/master/boost_camp/day21.md) |
 
