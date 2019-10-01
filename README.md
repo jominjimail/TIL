@@ -26,4 +26,5 @@ today i learned
 | 20일차 | [fetch](https://github.com/jominjimail/TIL/blob/master/boost_camp/day20.md) |
 | 21일차 | [mysql2](https://github.com/jominjimail/TIL/blob/master/boost_camp/day21.md) |
 | 23일차 | [DB 설계 고민](https://github.com/jominjimail/TIL/blob/master/boost_camp/day23.md) |
+| 24일차 | [ER 다이어그램](https://github.com/jominjimail/TIL/blob/master/boost_camp/day24.md) |
 
