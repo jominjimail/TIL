@@ -51,13 +51,18 @@ ENGINE = InnoDB;
 
 >  ex) e1,e2,e3 (개체타입 Employee)
 
-**애트리뷰트** : 각 개체를 설명해 주는 공유의 특성 
+<img src="./images/entity.png" width="50%">
+
+애트리뷰트** : 각 개체를 설명해 주는 공유의 특성 
 
 >  ex) age, SSN, salary
 
 **애트리뷰트 타입** 
 
 - 구분 1 : 단순 혹은 원자 애트리뷰트 vs 복합 애트리뷰트
+
+<img src="./images/attribute.png" width="40%">
+
 - 구분 2 : 단일값 애트리뷰트 vs 다치 애트리뷰트 
 - 구분 3 : 저장된 애트리뷰트 vs 유도된 애트리뷰트
 
@@ -66,6 +71,8 @@ ENGINE = InnoDB;
 - 동일한 애트리뷰트들을 가지는 개체들의 집합을 기술
 - 이름과 애트리뷰트들의 리스트로 표현
 - 스키마 혹은 내포를 의미
+
+<img src="./images/entitytype.png" width="50%">
 
 **키 애트리뷰트** 
 
@@ -81,6 +88,8 @@ ENGINE = InnoDB;
 **관계 타입** : 동일한 형태의 관계 인스턴스들의 집함을 기술한 것
 
 아래 그림에서 줄 하나하나가 relation instance이다.
+
+<img src="./images/relation.png" width="50%">
 
 #### 관계 타입에서의 제약 조건
 
