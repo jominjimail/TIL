@@ -30,4 +30,5 @@ today i learned
 | 27일차 | [Observer](https://github.com/jominjimail/TIL/blob/master/boost_camp/day27.md) |
 | 28일차 | [Prepared statments](https://github.com/jominjimail/TIL/blob/master/boost_camp/day28.md) |
 | 29일차 | [event propagation](https://github.com/jominjimail/TIL/blob/master/boost_camp/day29.md) |
+| 30일차 | [sequlize ORM](https://github.com/jominjimail/TIL/blob/master/boost_camp/day30.md) |
 
