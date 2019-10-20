@@ -1,6 +1,6 @@
 # 부스트 캠프 멤버십 30일차 
 
-## week6 back-end day1
+## week7 back-end day1
 
 ### 오늘 공부한거 
 

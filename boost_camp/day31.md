@@ -1,6 +1,6 @@
 # 부스트 캠프 멤버십 31일차 
 
-## week6 back-end day2
+## week7 back-end day2
 
 ### 오늘 공부한거 
 
@@ -107,7 +107,7 @@ module.exports = {
      });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Users');
+    return queryInterface.dropTable('User');
   }
 };
 ```
