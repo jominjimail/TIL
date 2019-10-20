@@ -30,5 +30,9 @@ today i learned
 | 27일차 | [Observer](https://github.com/jominjimail/TIL/blob/master/boost_camp/day27.md) |
 | 28일차 | [Prepared statments](https://github.com/jominjimail/TIL/blob/master/boost_camp/day28.md) |
 | 29일차 | [event propagation](https://github.com/jominjimail/TIL/blob/master/boost_camp/day29.md) |
-| 30일차 | [sequlize ORM](https://github.com/jominjimail/TIL/blob/master/boost_camp/day30.md) |
+| 30일차 | [sequelize ORM](https://github.com/jominjimail/TIL/blob/master/boost_camp/day30.md) |
+| 31일차 | [sequelize Migration](https://github.com/jominjimail/TIL/blob/master/boost_camp/day31.md) |
+| 32일차 | [json web Token](https://github.com/jominjimail/TIL/blob/master/boost_camp/day31.md) |
+| 33일차 |                                                              |
+| 34일차 | [trailing comma](https://github.com/jominjimail/TIL/blob/master/boost_camp/day34.md) |
 
